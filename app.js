@@ -11,6 +11,7 @@ app.get('/', (req, res)=>{
 })
 
 app.post('/webhook', (req, res) => {
+    console.log('test post method webhook');
     console.log(req.body);
 
 })
